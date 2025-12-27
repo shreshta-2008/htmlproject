@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weekly Timetable</title>
+  <link rel="stylesheet" href="timetable.css">
+</head>
+<body>
+
+<header>
+  <h2>Weekly Timetable</h2>
+  <button onclick="goBack()">⬅ Back</button>
+</header>
+
+<table class="timetable">
+  <tr>
+    <th>Time</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th>
+  </tr>
+  <tr><td>09</td><td id="Mon09"></td><td></td><td></td><td id="Thu09"></td><td></td></tr>
+  <tr><td>10</td><td></td><td id="Tue10"></td><td></td><td></td><td id="Fri10"></td></tr>
+  <tr><td>11</td><td></td><td></td><td id="Wed11"></td><td></td><td></td></tr>
+</table>
+
+<script src="timetable.js"></script>
+</body>
+</html>

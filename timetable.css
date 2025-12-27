@@ -1,0 +1,34 @@
+body {
+  background: #f8fafc;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: white;
+}
+
+.timetable {
+  width: 90%;
+  margin: 40px auto;
+  border-collapse: collapse;
+  animation: fadeIn 1s ease;
+}
+
+th, td {
+  border: 1px solid #cbd5e1;
+  padding: 16px;
+  text-align: center;
+}
+
+td:not(:empty) {
+  background: #e0f2fe;
+  font-weight: bold;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}

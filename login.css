@@ -1,0 +1,38 @@
+body {
+  background: linear-gradient(135deg, #e0f2fe, #f8fafc);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.login-card {
+  width: 360px;
+  margin: 100px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+  animation: slideIn 1s ease;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 12px;
+  border-radius: 10px;
+  border: 1px solid #cbd5f5;
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #1e40af;
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
